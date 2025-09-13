@@ -1,6 +1,6 @@
-# MycoLuxe Botanicals Website
+# MycoLuxe Botanicals Website (Fixed)
 
-This is a React + Tailwind project scaffold for the MycoLuxe Botanicals luxury supplement brand.
+This is a React + Tailwind + Vite project scaffold for the MycoLuxe Botanicals luxury supplement brand.
 
 ## Getting Started
 1. Install dependencies: `npm install`
