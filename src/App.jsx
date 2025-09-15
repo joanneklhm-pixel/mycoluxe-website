@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-// ✅ Correct image imports (all lowercase filenames)
+// Correct image imports (all lowercase filenames)
 import logo from './assets/logo.png';
 import product from './assets/product.jpg';
 import lionsmane from './assets/lionsmane.jpg';
