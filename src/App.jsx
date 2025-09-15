@@ -1,6 +1,3 @@
-import logo from "./assets/logo.png";
-import product from "./assets/product.jpg";
-import lionsmane from "./assets/lionsmane.jpg";
 import React from "react";
 import "./index.css";
 import logo from "./assets/logo.png";
