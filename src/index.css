@@ -1,23 +1,47 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600&family=Playfair+Display:wght@400;600;700&display=swap');
 
 body {
-  @apply bg-[#111111] text-white m-0;
-  font-family: 'Lato', sans-serif;
+  @apply bg-black text-white font-sans;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3 {
+/* Luxury fonts */
+h1, h2, h3, h4 {
   font-family: 'Playfair Display', serif;
 }
 
-.text-gold {
-  color: #d4af37;
+p, a, button, li {
+  font-family: 'Lato', sans-serif;
 }
 
-.bg-gold {
-  background-color: #d4af37;
+/* Buttons */
+button, a {
+  @apply transition duration-300 ease-in-out;
+}
+
+button:hover, a:hover {
+  @apply opacity-80;
+}
+
+/* Custom colors */
+.text-cream {
+  color: #F5F5DC;
+}
+
+.bg-cream {
+  background-color: #F5F5DC;
+}
+
+.text-silver {
+  color: #C0C0C0;
+}
+
+.bg-silver {
+  background-color: #C0C0C0;
+}
+
+/* Smooth section spacing */
+section {
+  @apply py-12;
 }
